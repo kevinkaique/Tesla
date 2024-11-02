@@ -1,0 +1,14 @@
+main img  {
+    width: 1000px;
+    display: auto;
+    margin: 20px;
+
+}
+header img {
+    width: 0 0 3px;
+    display: auto;
+    margin: 2px;
+}
+section img{
+    background: center;
+}

@@ -1,0 +1,123 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(#00000070,#000), url("https://www.automaistv.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=1200&height=627&format=.jpg&quality=91&imagick=uploads.automaistv.com.br/2024/04/tesla-model-3-performance-1-1320x743.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00000036;
+    padding: 0.5rem 1rem;
+}
+
+header img { 
+    width: 4rem;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #f1c040;
+    border-bottom: 1px solid;
+}
+
+main {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    height: 50vh;
+}
+
+section {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+section h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: haettenschweiler, 'arial narrow bold',sans-serif;
+    color: #97141b;
+    text-shadow: 2px 2px  black;
+}
+
+section h2 {
+    color: red;
+    text-shadow: 2px 2px black;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-indent: 5%;
+    background-color: black;
+    padding: 0.5rem 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+section a {
+    padding: 0.5rem 1rem;
+    width: 8rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin: 1rem auto;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+
+}
+
+main img {
+    width: 40%;
+    object-fit: contain;
+    margin-top: 6rem;
+}
+
+footer {
+    height: 10vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color:  white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+footer img {
+    width: 2rem;
+}
